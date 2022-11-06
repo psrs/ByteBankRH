@@ -1,0 +1,15 @@
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\bin\Debug\net6.0\ByteBankRH.exe
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\bin\Debug\net6.0\ByteBankRH.deps.json
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\bin\Debug\net6.0\ByteBankRH.runtimeconfig.json
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\bin\Debug\net6.0\ByteBankRH.dll
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\bin\Debug\net6.0\ByteBankRH.pdb
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\obj\Debug\net6.0\ByteBankRH.csproj.AssemblyReference.cache
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\obj\Debug\net6.0\ByteBankRH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\obj\Debug\net6.0\ByteBankRH.AssemblyInfoInputs.cache
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\obj\Debug\net6.0\ByteBankRH.AssemblyInfo.cs
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\obj\Debug\net6.0\ByteBankRH.csproj.CoreCompileInputs.cache
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\obj\Debug\net6.0\ByteBankRH.dll
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\obj\Debug\net6.0\refint\ByteBankRH.dll
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\obj\Debug\net6.0\ByteBankRH.pdb
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\obj\Debug\net6.0\ByteBankRH.genruntimeconfig.cache
+C:\Users\psrs\Documents\cursos\alura\oop\ByteBankRH\obj\Debug\net6.0\ref\ByteBankRH.dll
