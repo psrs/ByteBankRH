@@ -4,7 +4,8 @@ namespace ByteBankRH.Entities.Funcionarios
     {
         public string Nome { get; protected set; }
         public string Cpf { get; protected set; }
-        public double Salario { get; protected set; }
+        public double Salario { get; protected set; }        
+
         public static int TotalDeFuncionarios { get; private set; } = 0;
 
         public Funcionario(string nome, string cpf, double salario)

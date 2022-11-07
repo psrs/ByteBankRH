@@ -1,9 +1,11 @@
 ﻿using System.Globalization;
 using ByteBankRH.Entities.Funcionarios;
+using ByteBankRH.SistemaInterno;
 using ByteBankRH.Util;
 
-var func = new GerenteDeContas("Paulo", "1234", 1250.0);
-var diretor = new Diretor("Clotilde", "9876", 12000.0);
+ControleAcesso ca = new ControleAcesso();
+var func = new GerenteDeContas("Paulo", "1234", 1250.0, "PS", "xpto");
+var diretor = new Diretor("Clotilde", "9876", 12000.0, "CLO", "segredo");
 
 GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
@@ -35,3 +37,6 @@ Console.WriteLine();
 
 Console.WriteLine($"Novo salário do (a) {diretor.Nome}: R$ {diretor.Salario.ToString("F2", CultureInfo.InvariantCulture)}");
 // Console.WriteLine($"Salário do (a) {diretor.Nome} com bonificação: R$ {(diretor.CalculaBonificacao() + diretor.Salario).ToString("F2", CultureInfo.InvariantCulture)}");
+
+ca.Logar(func, "PS", "xpto");
+ca.Logar(diretor, "CLO", "segredo");
