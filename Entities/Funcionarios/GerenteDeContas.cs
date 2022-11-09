@@ -2,10 +2,8 @@ using ByteBankRH.SistemaInterno;
 
 namespace ByteBankRH.Entities.Funcionarios
 {
-    public class GerenteDeContas : Autenticavel
-    {        
-        public string Senha { get; private set; }
-        public string Usuario { get; private set; }
+    public class GerenteDeContas : FuncionarioAutenticavel
+    {
         public GerenteDeContas(string nome, string cpf, double salario, string usuario, string senha) : base(nome, cpf, salario)
         {
             Usuario = usuario;
@@ -22,9 +20,5 @@ namespace ByteBankRH.Entities.Funcionarios
             Salario *= 1.05;
         }
 
-        public override bool Autenticar(string usuario, string senha)
-        {
-            return Senha == senha && usuario == Usuario;
-        }
     }
 }

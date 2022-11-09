@@ -4,13 +4,13 @@ namespace ByteBankRH.SistemaInterno
 {
     public class ControleAcesso
     {
-        public bool Logar(Autenticavel autenticavel, string usuario, string senha)
+        public bool Logar(IAutenticavel autenticavel, string usuario, string senha)
         {
             bool usuarioAutenticado = autenticavel.Autenticar(usuario, senha);
 
             if (usuarioAutenticado)
             {
-                Console.WriteLine($"{autenticavel.Nome}, bem vindo ao Sistema ByteBankRH");
+                Console.WriteLine("Autenticado no Sistema ByteBankRH");
                 return true;
             }
             
